@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "11.0"
   s.tvos.deployment_target = "11.0"
   s.watchos.deployment_target = "4.0"
-  s.source       = { :git => "https://github.com/Kitura/Swift-JWT.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/TheHmmka/Swift-JWT.git", :tag => s.version }
   s.source_files  = "Sources/**/*.swift"
   s.dependency 'BlueRSA', '~> 1.0.200'
   s.dependency 'BlueECC', '~> 1.1.0'
   s.dependency 'LoggerAPI', '~> 1.7.0'
-  s.dependency 'KituraContracts', '~> 1.2.200'
+  s.dependency 'KituraContracts'
   s.dependency 'BlueCryptor', '~> 2.0.1'
 end
