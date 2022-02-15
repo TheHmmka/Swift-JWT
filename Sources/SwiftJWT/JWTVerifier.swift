@@ -49,7 +49,7 @@ public struct JWTVerifier {
         self.verifierAlgorithm = verifierAlgorithm
     }
     
-    func verify(jwt: String) -> Bool {
+    public func verify(jwt: String) -> Bool {
         return verifierAlgorithm.verify(jwt: jwt)
     }
     
